@@ -29,7 +29,7 @@ function gotResults(error, results)
     img2 = document.getElementById('alien3');
     img3 = document.getElementById('alien4');
     
-    if (results[0].label == 'Clap') {
+    if (results[0].label == 'Clapping') {
     img.src = 'aliens-01.gif';
       img1.src = 'aliens-02.png';
       img2.src = 'aliens-03.png';
@@ -39,7 +39,7 @@ function gotResults(error, results)
       img1.src = 'aliens-02.gif';
       img2.src = 'aliens-03.png';
       img3.src = 'aliens-04.png';
-    }else if(results[0].label == 'Snap') {
+    }else if(results[0].label == 'Snapping') {
     img.src = 'aliens-01.png';
       img1.src = 'aliens-02.png';
       img2.src = 'aliens-03.gif';
