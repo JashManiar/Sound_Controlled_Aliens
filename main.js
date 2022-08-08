@@ -6,7 +6,7 @@ classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models
 
 function modelReady()
 {
-classifier.classify( gotResults);
+classifier.classify(gotResults);
 }
 
 function gotResults(error, results)
